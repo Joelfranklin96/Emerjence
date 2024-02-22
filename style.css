@@ -1,0 +1,126 @@
+.container {
+    width: 55%; 
+    margin: 0 auto; 
+    max-width: 1200px; 
+  }
+
+.header img{
+    width: 100%;
+    height: auto;
+}
+
+.nav-menu img{
+    width: 100%;
+    height: auto;
+}
+
+.header, .footer {
+    text-align: center;
+  }
+  .nav-menu {
+    position: relative; 
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .nav-background {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .menu-links {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .menu-links a {
+    margin: 0 10px; 
+    background: rgba(255,255,255,0.5); 
+    padding: 10px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    color: #000; 
+    font-weight: bold; 
+  }
+  .nav-menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .content {
+    width:100%;
+  }
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .sidebar {
+    width: 40%;
+  }
+  .service-image {
+    width: calc(33.333% - 30px);
+    margin: 5px;
+    box-sizing: border-box;
+  }
+  .service-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .side-text{
+    width: 60%;
+  }
+
+  .flex-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+  }
+  
+  .key-measurements-box {
+    border: 8px solid #DAA520; 
+    padding: 20px;
+    margin: 20px auto; 
+    background-color: #fff; 
+    width: 80%;
+  }
+  
+  .key-measurements-box h2 {
+    background-color: #000080; 
+    color: white;
+    padding: 5px;
+    display: inline-block;
+  }
+  
+  .key-measurements-box p {
+    margin-bottom: 10px;
+  }
+  
+  .key-measurements-box ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  .key-measurements-box ul li {
+    padding: 1px 0; 
+  }
+
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+
+  .footer img{
+    width: 100%;
+  }
